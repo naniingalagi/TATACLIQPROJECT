@@ -20,7 +20,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * THis class use to maintain all WebDriver actions
- * @author CHANDAN KUMARa
+ *
  *
  */
 public class WebDriverUtility {

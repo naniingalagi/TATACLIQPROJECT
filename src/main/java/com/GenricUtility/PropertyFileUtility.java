@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.Properties;
 /**
  * This class contains only property file specific common methods
- * @author CHANDAN KUMARa
+ * 
  *
  */
 
