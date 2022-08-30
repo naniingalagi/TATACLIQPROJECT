@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-30T13:18:24Z" name="Suite" finished-at="2022-08-30T13:19:18Z" duration-ms="54472">
+    <groups>
+    </groups>
+    <test started-at="2022-08-30T13:18:24Z" name="ChromeTest" finished-at="2022-08-30T13:18:48Z" duration-ms="24006">
+      <class name="com.TataCliq.SetTheProductNameAndProductDecandPrizeTest">
+        <test-method is-config="true" signature="beforClass(java.lang.String)[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@69f1a286]" started-at="2022-08-30T13:18:24Z" name="beforClass" finished-at="2022-08-30T13:18:42Z" duration-ms="17769" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforClass -->
+        <test-method is-config="true" signature="beforMethod()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@69f1a286]" started-at="2022-08-30T13:18:42Z" name="beforMethod" finished-at="2022-08-30T13:18:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method signature="setTheProductNameAndProductDecandPrizeTest()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@69f1a286]" started-at="2022-08-30T13:18:42Z" name="setTheProductNameAndProductDecandPrizeTest" finished-at="2022-08-30T13:18:46Z" duration-ms="4655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTheProductNameAndProductDecandPrizeTest -->
+        <test-method is-config="true" signature="afterMethpd()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@69f1a286]" started-at="2022-08-30T13:18:46Z" name="afterMethpd" finished-at="2022-08-30T13:18:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethpd -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@69f1a286]" started-at="2022-08-30T13:18:46Z" name="afterClass" finished-at="2022-08-30T13:18:48Z" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@69f1a286]" started-at="2022-08-30T13:18:48Z" name="afterTest" finished-at="2022-08-30T13:18:48Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.TataCliq.SetTheProductNameAndProductDecandPrizeTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-08-30T13:18:24Z" name="FirefoxTest" finished-at="2022-08-30T13:19:18Z" duration-ms="53676">
+      <class name="com.TataCliq.SetTheProductNameAndProductDecandPrizeTest">
+        <test-method is-config="true" signature="beforClass(java.lang.String)[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@6c4980d3]" started-at="2022-08-30T13:18:24Z" name="beforClass" finished-at="2022-08-30T13:19:12Z" duration-ms="48378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforClass -->
+        <test-method signature="setTheProductNameAndProductDecandPrizeTest()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@6c4980d3]" started-at="2022-08-30T13:19:12Z" name="setTheProductNameAndProductDecandPrizeTest" finished-at="2022-08-30T13:19:13Z" duration-ms="365" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <input id="search-text-input" class="Input2__inputBox Input2__hidePlaceholder" type="search"> is not clickable at point (863,70) because another element <div class="wzrk-overlay"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O1RHDTI', ip: '192.168.115.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5148, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e265d6a6-20f2-4b46-9604-e7639b323b79]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <input id="search-text-input" class="Input2__inputBox Input2__hidePlaceholder" type="search"> is not clickable at point (863,70) because another element <div class="wzrk-overlay"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O1RHDTI', ip: '192.168.115.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220818191623, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5148, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e265d6a6-20f2-4b46-9604-e7639b323b79
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at com.ObjectRepo.HomePageTest.homePage(HomePageTest.java:32)
+at com.TataCliq.SetTheProductNameAndProductDecandPrizeTest.setTheProductNameAndProductDecandPrizeTest(SetTheProductNameAndProductDecandPrizeTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTheProductNameAndProductDecandPrizeTest -->
+        <test-method is-config="true" signature="beforMethod()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@6c4980d3]" started-at="2022-08-30T13:19:12Z" name="beforMethod" finished-at="2022-08-30T13:19:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@6c4980d3]" started-at="2022-08-30T13:19:13Z" name="afterClass" finished-at="2022-08-30T13:19:18Z" duration-ms="4905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterMethpd()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@6c4980d3]" started-at="2022-08-30T13:19:13Z" name="afterMethpd" finished-at="2022-08-30T13:19:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethpd -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@6c4980d3]" started-at="2022-08-30T13:19:18Z" name="afterTest" finished-at="2022-08-30T13:19:18Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.TataCliq.SetTheProductNameAndProductDecandPrizeTest -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2022-08-30T13:18:24Z" name="EdgeTest" finished-at="2022-08-30T13:19:18Z" duration-ms="54471">
+      <class name="com.TataCliq.SetTheProductNameAndProductDecandPrizeTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@1fb669c3]" started-at="2022-08-30T13:18:24Z" name="beforeSuite" finished-at="2022-08-30T13:18:24Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforClass(java.lang.String)[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@1fb669c3]" started-at="2022-08-30T13:18:24Z" name="beforClass" finished-at="2022-08-30T13:19:13Z" duration-ms="49555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforClass -->
+        <test-method is-config="true" signature="beforMethod()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@1fb669c3]" started-at="2022-08-30T13:19:13Z" name="beforMethod" finished-at="2022-08-30T13:19:13Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforMethod -->
+        <test-method signature="setTheProductNameAndProductDecandPrizeTest()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@1fb669c3]" started-at="2022-08-30T13:19:13Z" name="setTheProductNameAndProductDecandPrizeTest" finished-at="2022-08-30T13:19:18Z" duration-ms="4339" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <input type="search" autocomplete="off" autocorrect="off" id="search-text-input" placeholder="" class="Input2__inputBox Input2__hidePlaceholder" data-test="control-input-field" value="" style="font-size: 14px; color: rgb(255, 255, 255); font-family: regular; font-style: normal; font-weight: normal; padding: 1px 10px 0px 8px;"> is not clickable at point (869, 70). Other element would receive the click: <div class="wzrk-overlay"></div>
+  (Session info: MicrosoftEdge=104.0.1293.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O1RHDTI', ip: '192.168.115.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64785}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c661c4d78e876d73432b7c97f504d8b2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="search" autocomplete="off" autocorrect="off" id="search-text-input" placeholder="" class="Input2__inputBox Input2__hidePlaceholder" data-test="control-input-field" value="" style="font-size: 14px; color: rgb(255, 255, 255); font-family: regular; font-style: normal; font-weight: normal; padding: 1px 10px 0px 8px;"> is not clickable at point (869, 70). Other element would receive the click: <div class="wzrk-overlay"></div>
+  (Session info: MicrosoftEdge=104.0.1293.70)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-O1RHDTI', ip: '192.168.115.199', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.70, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64785}, msedge: {msedgedriverVersion: 104.0.1293.70 (6709c341bd06..., userDataDir: C:\Users\Admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c661c4d78e876d73432b7c97f504d8b2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at com.ObjectRepo.HomePageTest.homePage(HomePageTest.java:32)
+at com.TataCliq.SetTheProductNameAndProductDecandPrizeTest.setTheProductNameAndProductDecandPrizeTest(SetTheProductNameAndProductDecandPrizeTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTheProductNameAndProductDecandPrizeTest -->
+        <test-method is-config="true" signature="afterMethpd()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@1fb669c3]" started-at="2022-08-30T13:19:18Z" name="afterMethpd" finished-at="2022-08-30T13:19:18Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethpd -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@1fb669c3]" started-at="2022-08-30T13:19:18Z" name="afterClass" finished-at="2022-08-30T13:19:18Z" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@1fb669c3]" started-at="2022-08-30T13:19:18Z" name="afterTest" finished-at="2022-08-30T13:19:18Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.TataCliq.SetTheProductNameAndProductDecandPrizeTest@1fb669c3]" started-at="2022-08-30T13:19:18Z" name="afterSuite" finished-at="2022-08-30T13:19:18Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.TataCliq.SetTheProductNameAndProductDecandPrizeTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
